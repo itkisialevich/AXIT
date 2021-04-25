@@ -1,0 +1,614 @@
+/* Basic config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 84.3%;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+/* Nav config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.nav {
+    position: sticky;
+    top: 0px;
+    background-color: #000000;
+    font-size: 0px;
+}
+
+.nav-title {
+    display: inline-block;
+    padding-top: 20px;
+    margin-bottom: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title_red {
+    color:#EC7979;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-left: 625px;
+    padding-top: 25px;   
+}
+
+.nav-link_item {
+    display: inline-block;
+    margin-bottom: 25px;  
+}
+
+.nav-link_text { 
+    padding-right: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link_textright {
+    padding-right: 0px;
+}
+
+/* Header config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.header {
+    background: url(../img/background/header_background.png);
+}
+
+.header-info {
+    display: inline-block;
+    width: 46.1%;
+    font-size: 0px;
+}
+
+.header-info_title {
+    padding-top: 108px;
+    margin-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.endlogo {
+    color: #EC7979;
+}
+
+.header-info_subtitle {
+    margin-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header-info_line {
+    width: 11.8%;
+    margin-bottom: 39px;
+    border: 1px solid #ffffff;
+}
+
+.header-info_text {
+    margin-bottom: 39px;
+    width: 51.8%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.header-info_button {
+    margin-bottom: 101px;
+    width: 135px;
+    height:42px;
+    border-color:#ffffff;
+    border-style: solid;
+    border-width: 1px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.header-form {
+    display: inline-block;
+    margin-left: 260px;
+    text-align: center;
+    border-radius: 8px;
+    width: 31.4%;
+    height: 31.4%;
+    background-color: #ffffff;
+}
+
+.head-form_title {
+    padding-top: 18px;
+    margin-bottom: 62px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.head-form_titlered {
+    color: #EC7979;
+}
+
+.header-form_field {
+    margin-bottom: 19px;
+    padding-left: 59px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;       
+}
+
+input {
+    display: block;
+    width: 252px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.header-form_fieldtext {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+.header-form_button {
+    margin-top: 42px;
+    width: 370px;
+    height: 54px;
+    background-color: #EC7979;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* Social-icons config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.socialmedia {
+    background-color: #F8EFEF;
+}
+
+.social-media_text {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 110px;
+    font-size: 0px;
+}
+
+.social-media_title {
+    padding-top: 14px;
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.social-media_paragraph {
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-media_icons {
+    display: inline-block;
+    margin: 34px 0px 34px 100px;
+    background-image: url(../img//icons/icons_socialmedia.png);
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 684px;
+}
+
+/* Block-tab config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.block-tab {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 125px;
+    margin-bottom: 115px;
+    width: 9.5%;
+    font-size: 0px;
+}
+
+.block-tab_other {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF; 
+    text-align: center;
+}
+
+.block-tab_top {
+    background-color: #EC7979;
+}
+
+.block-tab_textinblock {
+    padding-top: 45px;
+}
+
+.block-tab_text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 126px;
+    margin-left: 118px;
+    margin-bottom: 125px;
+    width: 48.5%;
+    font-size: 0px;
+}
+.block-tab_text_title {
+    margin-bottom: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.block-tab_text_paragraph {
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.block-tab_button {
+    margin-top: 89px;
+    width: 135px;
+    height: 42px;
+    border: none;
+    background-color: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.block-tab_img {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 247px;
+    font-size: 0px;
+}
+
+/* Heading config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.section_heading {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.section_heading_title {
+    padding-top: 100px;
+    margin-bottom: 25px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section_heading_line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background-color: #e72424;
+    border: none;
+}
+
+.section_heading_subtitle {
+    padding-bottom: 36px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Card-section config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.card-section {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.card-section_box {
+    display: inline-block;
+    width: 350px;
+    margin: 31px 0px 89px;
+    padding: 20px 0;
+    font-size: 0px;
+}
+
+.card-section_boxcenter {
+    margin: 31px 36px 89px;
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 1px solid #e72424;
+}
+.card-title {
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.icon--lamp {
+    background: url(../img/card/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/card/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/card/lightning.png) no-repeat center center;
+}
+
+/* Price config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.price {
+    background-color: #F5F5F5;
+}
+
+.card-price {
+    margin-top: 77px;
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 28.8%;
+    font-size: 0px;
+    text-align: center;
+}
+
+.card-price_title {
+    margin-bottom: 2px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: #000000;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.card-price_cost {
+    margin-bottom: 2px;
+    padding-top: 26px;
+    padding-bottom: 33px;
+    background-color: #000000;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card-price_subtitle {
+    margin-bottom: 2px;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    background-color: #000000;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card-price_item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 7px;
+    padding-bottom: 14px;
+    background-color: #ffffff;
+    border: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B;
+    text-align: center;
+}
+
+.card-price_center {
+    vertical-align: top;
+    margin: 47px 75px 74px 75px;
+}
+
+/* Review config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.review-content {
+    text-align: center;
+}
+
+.testomonical { 
+    margin-top: 67px;
+    margin-bottom: 120px;
+    display: inline-block;
+    font-size: 0px;
+    width: 25.25%;
+    text-align: center;
+}
+
+.testomonical_quote {
+    padding: 14px 14px 16px 14px;
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B;
+    text-align: center;
+}
+
+.testomonical_avatar {
+    vertical-align: top;
+    margin-top: 22px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.testomonical_aboutavatar {
+    margin-left: 45px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.testomonical_name {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.testomonical_job {
+    padding-left: 39px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#86878B;
+}
+
+.testomonical_center {
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+/* Proposal config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.proposal {
+    padding-bottom: 38px;
+    background: linear-gradient(1deg, rgba(0, 0, 0, 0.55), rgba(24, 23, 23, 0.55)), url(../img/background/proposal_background.png) no-repeat center/cover;
+}
+
+.proposal_title,
+.proposal_line,
+.proposal_subtitle {
+    color: #ffffff;
+}
+
+.proposal_title {
+    padding-top: 57px;
+}
+
+.proposal_button {
+    margin: 0px auto;
+}
+
+/* Contact config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.contact_field_left {
+    display: inline-block;
+    font-size: 0px;
+}
+
+.contact_field_right {
+    display: inline-block;
+    font-size: 0px;
+}
+
+
+.contact_input {
+    padding-top: 25px;
+    width: 478px;
+}
+
+.contact_fieldtext {
+    padding-left: 0px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.contact_inputmassege {
+    padding-top: 216px;
+    width: 478px;
+}
+
+.contact_field_right {
+    margin-left: 220px;
+}
+
+.contact_button {
+    margin: 48px auto 0px;
+    width: 166px;
+}
+
+/* Footer config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.footer {
+    margin-top: 44px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    text-align: center;
+
+}
+
+.footer_icons {
+    margin: 0px auto 18px;
+    width: 317px;
+    height: 23px;
+    background-image: url(../img/icons/icons_footer.png);
+    background-repeat: no-repeat;
+
+}
+
+.footer_paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
